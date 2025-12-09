@@ -14,7 +14,7 @@ public class SolutionBase extends AbstractSolution {
         // TODO
 
         // Read input file
-        String input = getFilePath("TODO", day_01.SolutionBase.class);
+        String input = getFilePath("TODO", SolutionBase.class);
         try (BufferedReader bf = new BufferedReader(new InputStreamReader(new FileInputStream(input)))) {
             List<String> lines = bf.lines().toList();
             // TODO
