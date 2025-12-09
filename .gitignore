@@ -1,6 +1,6 @@
 .vscode
 .idea
 .eclipse
-*/input*
+src/**/input*
 out
 *.iml
